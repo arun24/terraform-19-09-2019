@@ -14,7 +14,7 @@ variable "instance_tags" {
 }
 
 variable "instance_count" {
-  default = "3"
+  default = "1"
 }
 variable "instance_type" {
   default = "t2.micro"
