@@ -6,6 +6,13 @@ variable "ami" {
     ap-southeast-1 = "ami-05c859630889c79c8"
   }
 }
+
+variable "instance_tags"{
+  type = "list"
+  default = ["terrafrom-1","terrafrom-2","terrafrom-3"]
+  
+}
+
 variable "instance_count" {
     default = "3"
   }
