@@ -7,15 +7,15 @@ variable "ami" {
   }
 }
 
-variable "instance_tags"{
-  type = "list"
-  default = ["terrafrom-1","terrafrom-2","terrafrom-3"]
-  
+variable "instance_tags" {
+  type    = "list"
+  default = ["terrafrom-1", "terrafrom-2", "terrafrom-3"]
+
 }
 
 variable "instance_count" {
-    default = "3"
-  }
+  default = "3"
+}
 variable "instance_type" {
   default = "t2.micro"
 }
